@@ -250,17 +250,14 @@
     align-items: center;
 }
 
-.footer__link {
+.footer__menu-link {
+    cursor: pointer;
     text-decoration: underline solid 1px;
     text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
     text-decoration: none;
-}
-
-.footer__menu-link {
-    cursor: pointer;
 }
 
 .footer__logo {
