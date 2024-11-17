@@ -39,6 +39,9 @@
 
 .header__address {
     justify-self: end;
+}
+
+.address {
     width: 240px;
     padding-inline-end: 25px;
     font-size: 18px;
@@ -48,6 +51,7 @@
 .cover {
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     margin-bottom: 180px;
@@ -110,9 +114,10 @@
 .bet-button {
     background-color: transparent;
     color: #FFF;
-    border: 1px solid #FFF;
+    border: 1px solid currentColor;
     padding: 12px 32px;
     font-size: 22px;
+    font-family: Raleway, sans-serif;
 }
 
 .lots {
@@ -262,13 +267,6 @@
 
 .footer__logo {
     min-width: 148px;
-}
-
-.footer__address {
-    width: 240px;
-    padding-inline-end: 25px;
-    font-size: 18px;
-    line-height: 1.35;
 }
 
 .footer__social-list {
